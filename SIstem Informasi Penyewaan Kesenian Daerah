@@ -1,0 +1,12 @@
+Sistem Informasi Penyewaan Kesenian Daerah
+
+No    Elemen	                  Uraian
+1	  Project Sponsor	      Team Startup
+2	  Business Need	        -Memberikan layanan untuk informasi pemesanan kesenian (ex: wayang) secara online
+                          -mengefektifkan pemesanan
+3	  Business Requirement	-fasilitas pencarian
+                          -pemesanan secara online
+                          -dapat mengetahui riwayat dari suatu grup kesenian
+4	  Business Value	      -menghemat waktu dan biaya
+                          -simple dan efektif dalam pemesanan
+5	  Special Issues	      -sistem berbasis android
