@@ -1,0 +1,15 @@
+USE CASE DESCRIPTION SISTEM INFORMASI PENYEWAAN KESENIAN DAERAH
+
+Use Case Name			: Melakukan Login Komunitas
+Actor				      : Komunitas
+Description			  : - untuk mengkomersialkan komunitas mereka
+				            - untuk melihat pesanan
+Pre-condition			: - system menampilkan kolom username dan password
+				            - komunitas harus terdaftar
+Normal Case			  : - use case dimulai saat komunitas masuk kedalam aplikasi
+			 	            - system menampilkan dialog box username dan password
+				            - komunitas mengisikan username dan password
+                    - bila username dan password benar maka user (komunitas) diberi akses menuju akunnya
+Post-condition 
+Exception	        : - bila login data benar system menampilkan profile komunitas
+				            - bila salah, password atau username salah
