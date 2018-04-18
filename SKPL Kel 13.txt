@@ -22,7 +22,7 @@ Abstrak:
 <1. PENDAHULUAN >
 
 <1.1 Latar Belakang>
-
+Kesenian daerah merupakan warisan budaya dari para leluhur. selain itu kesenian daerah merupakan aset berharga bagi daerah tersebut. maka dari itu diharapkan adanya upaya untuk melestarikan kesenian daerah. dengan aplikasi sistem informasi penyewaan kesenian daerah, dapat membantu masyarakat yang ingin menyewa kesenian daerah menjadi lebih mudah dalam mencarinya. 
 
 <1.2 Tujuan>
 Dokumen ini ditulis dalam rangka menjabarkan spesifikasi kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah. Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Dalam rangka membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersebut.
