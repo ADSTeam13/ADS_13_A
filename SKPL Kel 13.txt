@@ -17,12 +17,11 @@ Mata Kuliah Analisis dan Desain Sistem
 
 Abstrak:
 
-<.............>
+<Dokumen ini bersisikan tentang spesifikasi kebutuhan perangkat lunak sistem informasi penyewaan kesenian daerah yang berfungsi untuk media penyewaan kesenian daerah>
  
 <1. PENDAHULUAN >
 
 <1.1 Latar Belakang>
-................
 
 
 <1.2 Tujuan>
