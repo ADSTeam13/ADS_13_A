@@ -68,7 +68,14 @@ Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi ke
 
 
 <1.7 Ikhtisar Dokumen>
-................
+Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
+
+Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan deskripsi dari aplikasi yang akan dibuat, target audience, definisi, istilah dan singkatan yang digunakan dalam dokumen, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen ini.
+
+Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, karakteristik pengguna sistem, batasan yang dipakai dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat.
+
+Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data, batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional. 
+
 
 <2. Deskripsi Umum>
 
@@ -89,11 +96,9 @@ Sistem Informasi Penyewaan Kesenian Daerah merupakan aplikasi berbasis web yang 
 
 
 <2.2 Fungsi - Fungsi Perangkat Lunak>
-................
-
-
-penjelasan :
-................
+- Menyediakan media bagi user untuk mencari penyewaan kesenian daerah
+- Membantu mempromosikan komunitas kesenian daerah untuk lebih dikenal masyarakat
+- Menyediakan sistem pembayaran penyewaan kesenian daerah
 
 
 <2.2.1 Use Case Diagram>
@@ -142,7 +147,7 @@ Post-condition Exception	: - bila login data benar system menampilkan profile ko
 Perangkat lunak berbasis web ini berfungsi sebagai media yang menjembatani antara penyewa kesenian dan komunitas kesenian. Calon penyewa kesenian dimudahkan dalam mencari kesenian tradisional daerah setempat. Dengan mengakses website ini calon penyewa keesenian tinggal memilih kesenian yang ingin disewa
 
 <2.3.2 Keamanan Data>
-................
+Administrator harus memberikan suatu perilaku khusus dalam mengamankan data, sehingga data menjadi lebih aman dan sulit untuk diserang.
 
 
 <2.4 Lingkungan Operasi>
