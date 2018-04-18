@@ -71,6 +71,8 @@ Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi ke
 <2. Deskripsi Umum>
 
 <2.1 Tentang Perangkat Lunak>
+Sistem Informasi Penyewaan Kesenian Daerah merupakan aplikasi berbasis web yang menyediakan berbagai kesenian daerah, dimana user bisa menyewa kesenian daerah tersebut. Pengguna aplikasi dapat melakukan pendaftaran sebagai penyewa atau sebagai komunitas kesenian daerah. pengguna yang sudah terdaftar dapat menyewa kesesenian daerah. calon penyewa dapat melakukan pembayaran dengan rekening bersama.
+
 <2.1.1 Kebutuhan Fungsional>
 -	Sistem harus memeriksa ketersediaan atau kesanggupan komunitas daerah saat pementasan
 -	System harus mengizinkan penyewa untuk registrasi pemesanan
@@ -96,16 +98,16 @@ penjelasan :
 Berikut adalah penjelasan dari Use Case Diagram yang kami buat :
 Use Case Name			: Melakukan Login Komunitas
 Actor		       		: Komunitas
-Description			  : - untuk mengkomersialkan komunitas mereka
-				              - untuk melihat pesanan
+Description			: - untuk mengkomersialkan komunitas mereka
+		                  - untuk melihat pesanan
 Pre-condition			: - system menampilkan kolom username dan password
-				              - komunitas harus terdaftar
-Normal Case			  : - use case dimulai saat komunitas masuk kedalam aplikasi
-			 	             - system menampilkan dialog box username dan password
-				              - komunitas mengisikan username dan password
-                  - bila username dan password benar maka user (komunitas) diberi akses menuju akunnya
+	     	                  - komunitas harus terdaftar
+Normal Case			: - use case dimulai saat komunitas masuk kedalam aplikasi
+		                  - system menampilkan dialog box username dan password
+	     	                  - komunitas mengisikan username dan password
+                  		  - bila username dan password benar maka user (komunitas) diberi akses menuju akunnya
 Post-condition Exception	: - bila login data benar system menampilkan profile komunitas
-				                       - bila salah, password atau username salah
+				  - bila salah, password atau username salah
 
 
 
@@ -119,8 +121,38 @@ Perangkat lunak berbasis web ini berfungsi sebagai media yang menjembatani antar
 
 
 <2.4 Lingkungan Operasi>
-................
+Aplikasi Client server ini akan berfungsi dengan spesifikasi :
+Server :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+	- Processor Intel Pentium 4 3 Ghz
+	- Motherboard support internet connection 2 GB RAM
+	- 500 GB Hard Disk Drive utama 500 GB Hard Disk Drive backup VGA Card 256 MB
+	- NIC FastEthernet atau Gigabit Ethernet Mouse
+	- Keyboard Monitor
+	- Power Supply
 
+Komputer yang minimal telah terinstall software sebagai berikut :
+	- Browser Google Chrome/Mozilla Firefox PDF reader
+	- Word Processor
+	- Apache HTTP Server Mail Server
+	- DBMS (Database Management System) minimal MySQL 5.0.20 ke atas Koneksi internet dengan bandwidth minimal 1 Mbps OS minimal Windows 2003 Server atau Ubuntu Server
+
+Client :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+	- Processor Intel Pentium 4 2 Ghz
+	- Motherboard support internet connection
+	- 1 GB RAM
+	- 80 GB Hard Disk Drive VGA Card 64 MB
+	- Mouse
+	- Keyboard Monitor
+	- Power Supply
+
+Komputer yang minimal telah terinstall software sebagai berikut :
+	- Browser Google Chrome/Mozilla Firefox PDF reader
+	- Koneksi internet dengan bandwidth minimal 128 Kbps OS minimal Windows XP ke atas atau Ubuntu 7.04 ke atas
 
 <2.5 Batasan Desain dan Implementasi>
-................
+Batasan Desain dan Implementasi yang dipakai dalam pengembangan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
+- Pembuatan Web menggunakan wordpress
+- Text Editor yang dipakai adalah sublime text
+- Bahasa Pemrograman yang digunakan adalah PHP
