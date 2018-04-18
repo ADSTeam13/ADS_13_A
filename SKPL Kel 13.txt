@@ -112,8 +112,7 @@ Post-condition Exception	: - bila login data benar system menampilkan profile ko
 
 <2.3 Karakteristik dan Klasifikasi Pengguna>
 <2.3.1 Fungsi Perangkat Lunak>
-................
-
+Perangkat lunak berbasis web ini berfungsi sebagai media yang menjembatani antara penyewa kesenian dan komunitas kesenian. Calon penyewa kesenian dimudahkan dalam mencari kesenian tradisional daerah setempat. Dengan mengakses website ini calon penyewa keesenian tinggal memilih kesenian yang ingin disewa
 
 <2.3.2 Keamanan Data>
 ................
