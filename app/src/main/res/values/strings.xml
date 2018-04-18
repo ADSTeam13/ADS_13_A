@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SI-KK2</string>
+    <string name="judul">The colors changed since indeed</string>
+    <string name="deskripsi">The colors changed since indeed.For example I also had in my code  red500 as fde0dc but it is now f44336.</string>
+    <string name="titleA">Title A</string>
+    <string name="titleB">Title B</string>
+</resources>
