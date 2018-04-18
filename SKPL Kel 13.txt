@@ -1,0 +1,109 @@
+SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
+
+<SISTEM INFORMASI PENYEWAAN KESENIAN DAERAH>
+
+
+<09/04/2018> DRAF
+
+Disiapkan Oleh:
+
+<Aulia' Illahi, 15053560XXXX>
+<Dimas Ramadhan, 15053560XXXX>
+<Hafidz Abdul Majid, 150535603633>
+
+sebagai kelengkapan Tugas Akhir prodi S1 Teknik Informatika
+Mata Kuliah Analisis dan Desain Sistem
+
+
+Abstrak:
+
+<.............>
+ 
+<1. PENDAHULUAN >
+
+<1.1 Latar Belakang>
+................
+
+
+<1.2 Tujuan>
+................
+
+
+<1.3 Ruang Lingkup Perangkat Lunak>
+................
+
+
+<1.4 Target Audience>
+................
+
+
+<1.5 Definisi, Istilah dan Singkatan>
+Guna memberikan gambaran yang sama terhadap beberapa definisi,
+istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan
+sebagaimana berikut:
+
+1. IEEE	:	Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
+2. SKPL	:	Spesifikasi Kebutuhan Perangkat Lunak atau
+3. SRS	:	Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
+4. Kebutuhan Fungsional : Kebutuhan yang dapat dilakukan oleh admin atau pengelolah yayasan
+5. Kebutuhan Non Fungsional : Fitur yang diberikan oleh pihak pengembang kepada SUSILA
+6. Use Case Diagram : DIagram alur kerja sistem dalam penerapanya
+
+<1.6 Referensi>
+
+Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
+
+•	IEEE Std. 1233, 1998 Edition IEEE Guide for Developing System Requirements Specifications
+
+•	IEEE, Software Requirements Engineering, Second Edition, IEEE Computer Society Press, 2002.
+
+•	Bray, Ian K. An Introduction to Requirement Engineering, 1st published, Addison-Wesley, 2002
+
+•	Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
+
+•	Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
+................
+
+
+<1.7 Ikhtisar Dokumen>
+................
+
+<2. Deskripsi Umum>
+
+<2.1 Tentang Perangkat Lunak>
+<2.1.1 Kebutuhan Fungsional>
+................
+
+
+<2.1.2 Kebutuhan Non Fungsional>
+................
+
+
+<2.2 Fungsi - Fungsi Perangkat Lunak>
+................
+
+
+penjelasan :
+................
+
+
+<2.2.1 Use Case Diagram>
+................
+
+
+
+<2.3 Karakteristik dan Klasifikasi Pengguna>
+<2.3.1 Fungsi Perangkat Lunak>
+................
+
+
+<2.3.2 Keamanan Data>
+................
+
+
+<2.4 Lingkungan Operasi>
+................
+
+
+<2.5 Batasan Desain dan Implementasi>
+................
