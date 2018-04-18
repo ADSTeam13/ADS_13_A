@@ -1,0 +1,9 @@
+Functional Requirement
+-	Sistem harus memeriksa ketersediaan atau kesanggupan komunitas daerah saat pementasan
+-	System harus mengizinkan penyewa untuk registrasi pemesanan
+-	System harus memberikan notifikasi kepada penyewa setelah komunitas mengkonfirmasi
+-	System harus meminta feedback kepada penyewa untuk komunitas kesenian terkait
+Non-functional Requirement
+-	Sistem terintegrasi dengan e-mail
+-	Interaksi user dan system tidak boleh lebih dari 
+-	User dapat melihat riwayat pemesanan

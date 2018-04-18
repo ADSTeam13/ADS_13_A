@@ -1,0 +1,181 @@
+SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
+
+<SISTEM INFORMASI PENYEWAAN KESENIAN DAERAH>
+
+
+<09/04/2018> DRAF
+
+Disiapkan Oleh:
+
+<Aulia' Illahi, 15053560XXXX>
+<Dimas Ramadhan, 150535602458>
+<Hafidz Abdul Majid, 150535603633>
+
+sebagai kelengkapan Tugas Akhir prodi S1 Teknik Informatika
+Mata Kuliah Analisis dan Desain Sistem
+
+
+Abstrak:
+
+<Dokumen ini bersisikan tentang spesifikasi kebutuhan perangkat lunak sistem informasi penyewaan kesenian daerah yang berfungsi untuk media penyewaan kesenian daerah>
+ 
+<1. PENDAHULUAN >
+
+<1.1 Latar Belakang>
+Kesenian daerah merupakan warisan budaya dari para leluhur. selain itu kesenian daerah merupakan aset berharga bagi daerah tersebut. maka dari itu diharapkan adanya upaya untuk melestarikan kesenian daerah. dengan aplikasi sistem informasi penyewaan kesenian daerah, dapat membantu masyarakat yang ingin menyewa kesenian daerah menjadi lebih mudah dalam mencarinya. 
+
+<1.2 Tujuan>
+Dokumen ini ditulis dalam rangka menjabarkan spesifikasi kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah. Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Dalam rangka membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersebut.
+
+<1.3 Ruang Lingkup Perangkat Lunak>
+Sistem Informasi Penyewaan Kesenian Daerah adalah aplikasi berbasis web yang menyediakan kesenian-kesenian daerah yang dapat disewa. Pengguna perangkat lunak dapat melakukan pendaftaran, sign in, melihat daftar kesenian, memilih kesenian yang akan disewa, dan melakukan pembayaran. 
+
+<1.4 Target Audience>
+Target audience dari perangkat lunak adalah semua orang yang ingin menyewa kesenian daerah dan mengerti dalam mengakses website sistem infomasi penyewaan kesenian daerah
+
+
+<1.5 Definisi, Istilah dan Singkatan>
+Guna memberikan gambaran yang sama terhadap beberapa definisi,
+istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan
+sebagaimana berikut:
+
+1. IEEE	:	Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
+2. SKPL	:	Spesifikasi Kebutuhan Perangkat Lunak atau
+3. SRS	:	Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
+4. Kebutuhan Fungsional : Kebutuhan yang dapat dilakukan oleh admin atau pengelolah yayasan
+5. Kebutuhan Non Fungsional : Fitur yang diberikan oleh pihak pengembang kepada SUSILA
+6. Use Case Diagram : DIagram alur kerja sistem dalam penerapanya
+
+<1.6 Referensi>
+
+Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
+
+•	IEEE Std. 1233, 1998 Edition IEEE Guide for Developing System Requirements Specifications
+
+•	IEEE, Software Requirements Engineering, Second Edition, IEEE Computer Society Press, 2002.
+
+•	Bray, Ian K. An Introduction to Requirement Engineering, 1st published, Addison-Wesley, 2002
+
+•	Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
+
+•	Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
+................
+
+
+<1.7 Ikhtisar Dokumen>
+Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
+
+Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan deskripsi dari aplikasi yang akan dibuat, target audience, definisi, istilah dan singkatan yang digunakan dalam dokumen, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen ini.
+
+Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, karakteristik pengguna sistem, batasan yang dipakai dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat.
+
+Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data, batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional. 
+
+
+<2. Deskripsi Umum>
+
+<2.1 Tentang Perangkat Lunak>
+Sistem Informasi Penyewaan Kesenian Daerah merupakan aplikasi berbasis web yang menyediakan berbagai kesenian daerah, dimana user bisa menyewa kesenian daerah tersebut. Pengguna aplikasi dapat melakukan pendaftaran sebagai penyewa atau sebagai komunitas kesenian daerah. pengguna yang sudah terdaftar dapat menyewa kesesenian daerah. calon penyewa dapat melakukan pembayaran dengan rekening bersama.
+
+<2.1.1 Kebutuhan Fungsional>
+-	Sistem harus memeriksa ketersediaan atau kesanggupan komunitas daerah saat pementasan
+-	System harus mengizinkan penyewa untuk registrasi pemesanan
+-	System harus memberikan notifikasi kepada penyewa setelah komunitas mengkonfirmasi
+-	System harus meminta feedback kepada penyewa untuk komunitas kesenian terkait
+
+
+<2.1.2 Kebutuhan Non Fungsional>
+-	Sistem terintegrasi dengan e-mail
+-	Interaksi user dan system tidak boleh lebih dari 
+-	User dapat melihat riwayat pemesanan
+
+
+<2.2 Fungsi - Fungsi Perangkat Lunak>
+- Menyediakan media bagi user untuk mencari penyewaan kesenian daerah
+- Membantu mempromosikan komunitas kesenian daerah untuk lebih dikenal masyarakat
+- Menyediakan sistem pembayaran penyewaan kesenian daerah
+
+
+<2.2.1 Use Case Diagram>
+Berikut adalah Use Case Diagram dalam bentuk deskripsi :
+1.	Penyewa		:  	a. Melakukan registrasi penyewa
+				b. melakukan login penyewa
+				c. mencari komunitas kesenian
+				d. menyewa
+				e. membayar
+				f. feedback
+				g. pembatalan
+
+2.	Komunitas	:	a. melakukan registrasi komunitas
+				b. melakukan login komunitas
+				c. pendaftaran baru
+				d. memanajemen profil komunitas
+				e. konfirmasi pagelaran sudah dilakukan
+				f. konfirmasi penerimaan
+				g. pembatalan
+
+3.	Admin		:  	a. melihat record
+
+4.	Sistem Pembayaran:  	a. autentifikasi pembayaran
+
+
+<2.2.2 Use Case Description>
+Berikut adalah penjelasan dari Use Case Diagram Description Sistem Informasi Penyewaan Kesenian Daerah :
+Use Case Name			: Melakukan Login Komunitas
+Actor		       		: Komunitas
+Description			: - untuk mengkomersialkan komunitas mereka
+		                  - untuk melihat pesanan
+Pre-condition			: - system menampilkan kolom username dan password
+	     	                  - komunitas harus terdaftar
+Normal Case			: - use case dimulai saat komunitas masuk kedalam aplikasi
+		                  - system menampilkan dialog box username dan password
+	     	                  - komunitas mengisikan username dan password
+                  		  - bila username dan password benar maka user (komunitas) diberi akses menuju akunnya
+Post-condition Exception	: - bila login data benar system menampilkan profile komunitas
+				  - bila salah, password atau username salah
+
+
+<2.3 Karakteristik dan Klasifikasi Pengguna>
+<2.3.1 Fungsi Perangkat Lunak>
+Perangkat lunak berbasis web ini berfungsi sebagai media yang menjembatani antara penyewa kesenian dan komunitas kesenian. Calon penyewa kesenian dimudahkan dalam mencari kesenian tradisional daerah setempat. Dengan mengakses website ini calon penyewa keesenian tinggal memilih kesenian yang ingin disewa
+
+<2.3.2 Keamanan Data>
+Administrator harus memberikan suatu perilaku khusus dalam mengamankan data, sehingga data menjadi lebih aman dan sulit untuk diserang.
+
+
+<2.4 Lingkungan Operasi>
+Aplikasi Client server ini akan berfungsi dengan spesifikasi :
+Server :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+	- Processor Intel Pentium 4 3 Ghz
+	- Motherboard support internet connection 2 GB RAM
+	- 500 GB Hard Disk Drive utama 500 GB Hard Disk Drive backup VGA Card 256 MB
+	- NIC FastEthernet atau Gigabit Ethernet Mouse
+	- Keyboard Monitor
+	- Power Supply
+
+Komputer yang minimal telah terinstall software sebagai berikut :
+	- Browser Google Chrome/Mozilla Firefox PDF reader
+	- Word Processor
+	- Apache HTTP Server Mail Server
+	- DBMS (Database Management System) minimal MySQL 5.0.20 ke atas Koneksi internet dengan bandwidth minimal 1 Mbps OS minimal Windows 2003 Server atau Ubuntu Server
+
+Client :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+	- Processor Intel Pentium 4 2 Ghz
+	- Motherboard support internet connection
+	- 1 GB RAM
+	- 80 GB Hard Disk Drive VGA Card 64 MB
+	- Mouse
+	- Keyboard Monitor
+	- Power Supply
+
+Komputer yang minimal telah terinstall software sebagai berikut :
+	- Browser Google Chrome/Mozilla Firefox PDF reader
+	- Koneksi internet dengan bandwidth minimal 128 Kbps OS minimal Windows XP ke atas atau Ubuntu 7.04 ke atas
+
+<2.5 Batasan Desain dan Implementasi>
+Batasan Desain dan Implementasi yang dipakai dalam pengembangan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
+- Pembuatan Web menggunakan wordpress
+- Text Editor yang dipakai adalah sublime text
+- Bahasa Pemrograman yang digunakan adalah PHP
