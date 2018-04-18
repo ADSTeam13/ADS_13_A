@@ -53,15 +53,15 @@ sebagaimana berikut:
 
 Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
 
-•	IEEE Std. 1233, 1998 Edition IEEE Guide for Developing System Requirements Specifications
+â€¢	IEEE Std. 1233, 1998 Edition IEEE Guide for Developing System Requirements Specifications
 
-•	IEEE, Software Requirements Engineering, Second Edition, IEEE Computer Society Press, 2002.
+â€¢	IEEE, Software Requirements Engineering, Second Edition, IEEE Computer Society Press, 2002.
 
-•	Bray, Ian K. An Introduction to Requirement Engineering, 1st published, Addison-Wesley, 2002
+â€¢	Bray, Ian K. An Introduction to Requirement Engineering, 1st published, Addison-Wesley, 2002
 
-•	Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
+â€¢	Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
 
-•	Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
+â€¢	Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
 ................
 
 
@@ -72,11 +72,16 @@ Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi ke
 
 <2.1 Tentang Perangkat Lunak>
 <2.1.1 Kebutuhan Fungsional>
-................
+-	Sistem harus memeriksa ketersediaan atau kesanggupan komunitas daerah saat pementasan
+-	System harus mengizinkan penyewa untuk registrasi pemesanan
+-	System harus memberikan notifikasi kepada penyewa setelah komunitas mengkonfirmasi
+-	System harus meminta feedback kepada penyewa untuk komunitas kesenian terkait
 
 
 <2.1.2 Kebutuhan Non Fungsional>
-................
+-	Sistem terintegrasi dengan e-mail
+-	Interaksi user dan system tidak boleh lebih dari 
+-	User dapat melihat riwayat pemesanan
 
 
 <2.2 Fungsi - Fungsi Perangkat Lunak>
