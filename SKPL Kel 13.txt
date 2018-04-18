@@ -95,7 +95,30 @@ penjelasan :
 
 
 <2.2.1 Use Case Diagram>
-Berikut adalah penjelasan dari Use Case Diagram yang kami buat :
+Berikut adalah Use Case Diagram dalam bentuk deskripsi :
+1.	Penyewa		:  	a. Melakukan registrasi penyewa
+				b. melakukan login penyewa
+				c. mencari komunitas kesenian
+				d. menyewa
+				e. membayar
+				f. feedback
+				g. pembatalan
+
+2.	Komunitas	:	a. melakukan registrasi komunitas
+				b. melakukan login komunitas
+				c. pendaftaran baru
+				d. memanajemen profil komunitas
+				e. konfirmasi pagelaran sudah dilakukan
+				f. konfirmasi penerimaan
+				g. pembatalan
+
+3.	Admin		:  	a. melihat record
+
+4.	Sistem Pembayaran:  	a. autentifikasi pembayaran
+
+
+<2.2.2 Use Case Description>
+Berikut adalah penjelasan dari Use Case Diagram Description Sistem Informasi Penyewaan Kesenian Daerah :
 Use Case Name			: Melakukan Login Komunitas
 Actor		       		: Komunitas
 Description			: - untuk mengkomersialkan komunitas mereka
