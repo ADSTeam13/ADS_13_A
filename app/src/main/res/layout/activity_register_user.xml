@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.yak.si_kk2.RegisterKomunitas">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register User"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:id="@+id/usernameRegUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Masukan Nama"
+        />
+    <EditText
+        android:id="@+id/emailRegUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Masukan Email"
+        />
+    <EditText
+        android:id="@+id/passRegUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:hint="Masukan Password"
+        />
+    <EditText
+        android:id="@+id/phoneRegUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Masukan no Telp"
+        />
+
+    <Button
+        android:id="@+id/daftarRegUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSuccesRegisterUser"
+        android:text="Daftar "/>
+</LinearLayout>

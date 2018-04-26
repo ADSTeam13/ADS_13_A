@@ -5,18 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class ProfileKomunitas extends AppCompatActivity {
+public class RegisterMenu extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile_komunitas);
+        setContentView(R.layout.activity_register_menu);
     }
-    public void onPortofolioKomunitas(View view){
-        Intent intent = new Intent(this, PortofolioKomunitas.class);
+    public void onRegisterKomunitas(View view){
+        Intent intent = new Intent(this, RegisterKomunitas.class);
         startActivity(intent);
     }
-    public void onSewaKomunitas(View view){
-        Intent intent = new Intent(this, FormPenyewaan.class);
+    public void onRegisterUser(View view){
+        Intent intent = new Intent(this, RegisterUser.class);
         startActivity(intent);
     }
 }

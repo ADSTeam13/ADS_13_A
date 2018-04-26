@@ -10,14 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <ImageSwitcher
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="300dp">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/imgGaleriKomunitas"/>
-        </ImageSwitcher>
+            android:layout_height="300dp"
+            android:src="@android:drawable/ic_media_play">
+        </ImageView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="80dp"
@@ -38,14 +35,16 @@
             <Button
                 android:layout_width="150dp"
                 android:layout_height="60dp"
-                android:text="Portofolio" />
+                android:text="Portofolio"
+                android:onClick="onPortofolioKomunitas"/>
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="80dp"
-                android:text="Sewa" />
+                android:text="Sewa"
+                android:onClick="onSewaKomunitas"/>
         </LinearLayout>
 
 

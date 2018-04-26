@@ -3,11 +3,11 @@ package com.example.yak.si_kk2;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class PortofolioKomunitas extends AppCompatActivity {
+public class FormPenyewaan extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_portofolio_komunitas);
+        setContentView(R.layout.activity_form_penyewaan);
     }
 }
