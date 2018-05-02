@@ -242,3 +242,6 @@ Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut
 
 <3.6.1. Kebutuhan Fungsional vs Proses>
 Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah adalah sebagai berikut.
+
+<3.6.2. Data Store vs E-R>
+Mapping data store pada DFD dengan Entity –Relasi untuk perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah adalah sebagai berikut :
