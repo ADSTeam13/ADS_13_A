@@ -211,3 +211,11 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara 
 	- Kabel LAN UTP RJ-45
 	- ASDL Modem
 	- Kabel telepon (aerial type)
+
+<3.2. Kebutuhan Fungsional>
+<3.2.1. Diagram Konteks>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD_0.png
+<3.2.2. DFD Level 1>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%201.png
