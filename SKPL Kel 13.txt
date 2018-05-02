@@ -248,4 +248,6 @@ Mapping data store pada DFD dengan Entity –Relasi untuk perangkat lunak Sistem
 
 <3.7. Ringkasan Kebutuhan>
 Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua
-kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah.
+kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah :
+
+<3.7.1 Kebutuhan Fungsional>
