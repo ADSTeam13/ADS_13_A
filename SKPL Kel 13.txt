@@ -193,22 +193,21 @@ Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut.
 	- Keyboard
 	- Mouse
 	- Monitor
-3.1.2 Antarmuka Perangkat Keras
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak
-antara lain :
- NIC FastEthernet atau Gigabit Ethernet
- Kabel LAN UTP RJ-45
- ASDL Modem
- Kabel telepon (aerial type)
-3.1.3 Antarmuka Perangkat Lunak
-Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai
-berikut :
- API E-Banking
- API Logistik
- API Jasa Kurir
-3.1.4 Antarmuka Komunikasi
-Antarmuka komunikasi yang digunakan untukmengoperasikanperangkat lunak antara
-lain :
- Kabel LAN UTP RJ-45
- ASDL Modem
- Kabel telepon (aerial type)
+	
+<3.1.2. Antarmuka Perangkat Keras>
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+	- NIC FastEthernet atau Gigabit Ethernet
+	- Kabel LAN UTP RJ-45
+	- ASDL Modem
+	- Kabel telepon (aerial type)
+	
+<3.1.3. Antarmuka Perangkat Lunak>
+Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai berikut :
+	- API E-Banking
+	
+
+<3.1.4. Antarmuka Komunikasi>
+Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+	- Kabel LAN UTP RJ-45
+	- ASDL Modem
+	- Kabel telepon (aerial type)
