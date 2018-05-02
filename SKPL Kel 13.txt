@@ -251,3 +251,4 @@ Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsi
 kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah :
 
 <3.7.1 Kebutuhan Fungsional>
+<3.7.2 Kebutuhan Non Fungsional>
