@@ -237,3 +237,5 @@ Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Sistem Infor
 	- Tampilan web dibuat dengan menggunakan wordpress
 	- Text editor yang digunakan adalah sublime text dan/atau notepad++
 	- Bahasa pemrograman yang digunakan adalah Java
+<3.6. Kerunutan (Traceability)>
+Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
