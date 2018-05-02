@@ -223,14 +223,18 @@ Terlampir pada link berikut :
 https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%201.png
 
 <3.2.3. Spesifikasi Proses (P-SPEC)>
+................
 
 <3.2.4. Data Store>
+................
 
 <3.3. Kebutuhan Data>
 <3.3.1. ER-Diagram>
+................
 
 <3.4. Kebutuhan Non Fungsional>
 Kebutuhan non fungsional yang terdapat pada perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
+................
 
 <3.5. Batasan Perancangan>
 Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
@@ -239,16 +243,21 @@ Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Sistem Infor
 	- Bahasa pemrograman yang digunakan adalah Java
 <3.6. Kerunutan (Traceability)>
 Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
-
+................
 <3.6.1. Kebutuhan Fungsional vs Proses>
 Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah adalah sebagai berikut.
+................
 
 <3.6.2. Data Store vs E-R>
 Mapping data store pada DFD dengan Entity –Relasi untuk perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah adalah sebagai berikut :
+................
 
 <3.7. Ringkasan Kebutuhan>
 Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua
 kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah :
 
 <3.7.1 Kebutuhan Fungsional>
+................
+
 <3.7.2 Kebutuhan Non Fungsional>
+................
