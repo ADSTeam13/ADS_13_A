@@ -176,6 +176,22 @@ Komputer yang minimal telah terinstall software sebagai berikut :
 
 <2.5 Batasan Desain dan Implementasi>
 Batasan Desain dan Implementasi yang dipakai dalam pengembangan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
-- Pembuatan Web menggunakan wordpress
+- Pembuatan Web menggunakan wordpres
 - Text Editor yang dipakai adalah sublime text
 - Bahasa Pemrograman yang digunakan adalah PHP
+
+<3. Deskripsi Kebutuhan>
+<3.1. Kebutuhan Antarmuka Eksternal>
+	Perangkat Lunak Sistem Informasi Penyewaan Kesenian Daerah membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
+<3.1.1. Antarmuka Pemakai>
+	User interface yang digunakan untuk mengoperasikan Perangkat Lunak Super Monster
+Mall antara lain :
+	- Tampilan awal web
+	- Tampilan form penyewaan
+	- Tampilan sign in
+	- Tampilan pendaftaran
+	- Tampilan list komunitas kesenian
+Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut.
+	- Keyboard
+	- Mouse
+	- Monitor
