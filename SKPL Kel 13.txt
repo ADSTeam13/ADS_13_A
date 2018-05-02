@@ -257,7 +257,22 @@ Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsi
 kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah :
 
 <3.7.1 Kebutuhan Fungsional>
-................
-
+ID		Kebutuhan								Penjelasan
+SRS-F-OUT-001	Perangkat lunak mampu menampilkan pemilihan form login			Pengguna atau komunitas memilih login menurut statusnya masing-masing dan harus sudah terdaftar untuk dapat masuk ke halaman awal
+SRS-F-OUT-002	Perangkat lunak mampu menampilkan form pendaftaran			Pengguna yang belum terdaftar harus melakukan pendaftaran untuk mengakses ke halaman lanjut
+SRS-F-OUT-003	Perangkat lunak mampu menampilkan pesan pendaftaran untuk komunitas	Komunitas yang belum terdaftar harus mendaftarkan sendiri kepada admin yang berada di kantor
+SRS-F-IN-004	Perangkat lunak mampu mencocokan id dan password pengguna		Data yang dimasukkan harus sesuai dengan data yang sudah ada
+SRS-F-PR-005	Perangkat lunak mampu menyimpan data pengguna dan komunitas		Perangkat harus bisa menyimpan data untuk dikelola kembali ataupun disimpan
+SRS-F-OUT-006	Perangkat lunak mampu menampilkan halaman awal				Pegguna dapat melihat halaman awal setelah melakukan login
+SRS-F-OUT-007	Perangkat lunak mampu menampilkan gambar dari seluruh komunitas		Pada halaman awal pengguna dapat melihat list komunitas yang ada
+SRS-F-PR-008	Perangkat lunak mampu mencari sesuatu menggunakan search		Pengguna dapat mencari menggunakan search yang sudah ada
+SRS-F-OUT-009	Perangkat lunak mampu menampilkan form penyewaan			Pengguna akan ditampilkan form penyewaan setelah memilih komunitas yang dipilih
+SRS-F-PR-010	Perangkat lunak mampu menyimpan isi form penyewaan			Data yang dimasukkan pengguna harus dapat disimpan didalam storage
+SRS-F-OUT-011	Perangkat lunak mampu menyediakan form pembayaran			Pengguna dihapkan dapat membayar setelah melakukan pemesanan
+SRS-F-IN-012	Perangkat lunak mampu menghitung jumlah harga yang harus dibayar	Pengguna bisa mengetahui harga yang harus mereka bayar
+SRS-F-PR-013	Perangkat lunak mampu menyimpan record pembayaran			Data pembelian dapat tersimpan
+SRS-F-OUT-014	Perangkat lunak mampu mengupdate profile komunitas			Komunitas diharapkan dapat mengupdate profile mereka
+SRS-F-IN-015	Perangkat lunak mampu menjawab atau konfirmasi penyewaan		Komunitas diharapkan dapat mengkonfirmasi permintaan saat mereka memiliki order
+SRS-F-OUT-016	Perangkat lunak mampu memberikan laporan				Laporan dapat tersampaikan kepada Admin.  
 <3.7.2 Kebutuhan Non Fungsional>
 ................
