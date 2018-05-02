@@ -275,4 +275,11 @@ SRS-F-OUT-014	Perangkat lunak mampu mengupdate profile komunitas			Komunitas dih
 SRS-F-IN-015	Perangkat lunak mampu menjawab atau konfirmasi penyewaan		Komunitas diharapkan dapat mengkonfirmasi permintaan saat mereka memiliki order
 SRS-F-OUT-016	Perangkat lunak mampu memberikan laporan				Laporan dapat tersampaikan kepada Admin.  
 <3.7.2 Kebutuhan Non Fungsional>
-................
+Tabel Kebutuhan Non Fungsional
+ID			Deskripsi
+SRS-NF-OUT-17		Perangkat lunak dapat beroperasi selama 7 hari tanpa gagal
+SRS-NF-OUT-018		Tampilan interface dapat dipahami dengan mudah dan memiliki estetika yang bagus
+SRS-NF-PR-019		Perangkat lunak dapat digunakan di platform Android
+SRS-NF-PR-020		Perangkat mampu melaksanakan perjalanan
+SRS-NF-IN-021		Perangkat lunak menolak input bila pendaftar memasukkan password atau nama kurang dari 8 karakter
+SRS-NF-PR-031		Semua bahasa dalam interface disediakan dalam bahasa Indonesia
