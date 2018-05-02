@@ -213,9 +213,18 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara 
 	- Kabel telepon (aerial type)
 
 <3.2. Kebutuhan Fungsional>
+
 <3.2.1. Diagram Konteks>
 Terlampir pada link berikut :
 https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD_0.png
+
 <3.2.2. DFD Level 1>
 Terlampir pada link berikut :
 https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%201.png
+
+<3.2.3. Spesifikasi Proses (P-SPEC)>
+
+<3.2.4. Data Store>
+
+<3.3. Kebutuhan Data>
+<3.3.1. ER-Diagram>
