@@ -174,7 +174,7 @@ Komputer yang minimal telah terinstall software sebagai berikut :
 
 <2.5 Batasan Desain dan Implementasi>
 Batasan Desain dan Implementasi yang dipakai dalam pengembangan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
-- Pembuatan Web menggunakan wordpres
+- Pembuatan Web menggunakan wordpress
 - Text Editor yang dipakai adalah sublime text
 - Bahasa Pemrograman yang digunakan adalah PHP
 
@@ -234,3 +234,6 @@ Kebutuhan non fungsional yang terdapat pada perangkat lunak Sistem Informasi Pen
 
 <3.5. Batasan Perancangan>
 Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
+	- Tampilan web dibuat dengan menggunakan wordpress
+	- Text editor yang digunakan adalah sublime text dan/atau notepad++
+	- Bahasa pemrograman yang digunakan adalah Java
