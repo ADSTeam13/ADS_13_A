@@ -228,3 +228,6 @@ https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%201.png
 
 <3.3. Kebutuhan Data>
 <3.3.1. ER-Diagram>
+
+<3.4. Kebutuhan Non Fungsional>
+Kebutuhan non fungsional yang terdapat pada perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
