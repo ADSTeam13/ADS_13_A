@@ -231,3 +231,6 @@ https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%201.png
 
 <3.4. Kebutuhan Non Fungsional>
 Kebutuhan non fungsional yang terdapat pada perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
+
+<3.5. Batasan Perancangan>
+Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
