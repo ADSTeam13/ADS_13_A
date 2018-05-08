@@ -230,7 +230,8 @@ https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%201.png
 
 <3.3. Kebutuhan Data>
 <3.3.1. ER-Diagram>
-................
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/ERD.png
 
 <3.4. Kebutuhan Non Fungsional>
 Kebutuhan non fungsional yang terdapat pada perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
@@ -274,6 +275,7 @@ SRS-F-PR-013	Perangkat lunak mampu menyimpan record pembayaran			Data pembelian 
 SRS-F-OUT-014	Perangkat lunak mampu mengupdate profile komunitas			Komunitas diharapkan dapat mengupdate profile mereka
 SRS-F-IN-015	Perangkat lunak mampu menjawab atau konfirmasi penyewaan		Komunitas diharapkan dapat mengkonfirmasi permintaan saat mereka memiliki order
 SRS-F-OUT-016	Perangkat lunak mampu memberikan laporan				Laporan dapat tersampaikan kepada Admin.  
+
 <3.7.2 Kebutuhan Non Fungsional>
 Tabel Kebutuhan Non Fungsional
 ID			Deskripsi
