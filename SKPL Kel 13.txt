@@ -22,22 +22,20 @@ Abstrak:
 <1. PENDAHULUAN >
 
 <1.1 Latar Belakang>
-Kesenian daerah merupakan warisan budaya dari para leluhur. selain itu kesenian daerah merupakan aset berharga bagi daerah tersebut. maka dari itu diharapkan adanya upaya untuk melestarikan kesenian daerah. dengan aplikasi sistem informasi penyewaan kesenian daerah, dapat membantu masyarakat yang ingin menyewa kesenian daerah menjadi lebih mudah dalam mencarinya. 
+	Kesenian daerah merupakan warisan budaya dari para leluhur. selain itu kesenian daerah merupakan aset berharga bagi daerah tersebut. maka dari itu diharapkan adanya upaya untuk melestarikan kesenian daerah. dengan aplikasi sistem informasi penyewaan kesenian daerah, dapat membantu masyarakat yang ingin menyewa kesenian daerah menjadi lebih mudah dalam mencarinya. 
 
 <1.2 Tujuan>
-Dokumen ini ditulis dalam rangka menjabarkan spesifikasi kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah. Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Dalam rangka membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersebut.
+	Dokumen ini ditulis dalam rangka menjabarkan spesifikasi kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah. Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Dalam rangka membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersebut.
 
 <1.3 Ruang Lingkup Perangkat Lunak>
-Sistem Informasi Penyewaan Kesenian Daerah adalah aplikasi berbasis web yang menyediakan kesenian-kesenian daerah yang dapat disewa. Pengguna perangkat lunak dapat melakukan pendaftaran, sign in, melihat daftar kesenian, memilih kesenian yang akan disewa, dan melakukan pembayaran. 
+	Sistem Informasi Penyewaan Kesenian Daerah adalah aplikasi berbasis web yang menyediakan kesenian-kesenian daerah yang dapat disewa. Pengguna perangkat lunak dapat melakukan pendaftaran, sign in, melihat daftar kesenian, memilih kesenian yang akan disewa, dan melakukan pembayaran. 
 
 <1.4 Target Audience>
-Target audience dari perangkat lunak adalah semua orang yang ingin menyewa kesenian daerah dan mengerti dalam mengakses website sistem infomasi penyewaan kesenian daerah
+	Target audience dari perangkat lunak adalah semua orang yang ingin menyewa kesenian daerah dan mengerti dalam mengakses website sistem infomasi penyewaan kesenian daerah
 
 
 <1.5 Definisi, Istilah dan Singkatan>
-Guna memberikan gambaran yang sama terhadap beberapa definisi,
-istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan
-sebagaimana berikut:
+	Guna memberikan gambaran yang sama terhadap beberapa definisi, istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan sebagaimana berikut:
 
 1. IEEE	:	Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
 2. SKPL	:	Spesifikasi Kebutuhan Perangkat Lunak atau
@@ -59,41 +57,41 @@ Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi ke
 •	Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
 
 •	Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
-................
+
 
 
 <1.7 Ikhtisar Dokumen>
-Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
+	Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
 
-Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan deskripsi dari aplikasi yang akan dibuat, target audience, definisi, istilah dan singkatan yang digunakan dalam dokumen, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen ini.
+	Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan deskripsi dari aplikasi yang akan dibuat, target audience, definisi, istilah dan singkatan yang digunakan dalam dokumen, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen ini.
 
-Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, karakteristik pengguna sistem, batasan yang dipakai dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat.
+	Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, karakteristik pengguna sistem, batasan yang dipakai dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat.
 
-Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data, batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional. 
+	Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data, batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional. 
 
 
 <2. Deskripsi Umum>
 
 <2.1 Tentang Perangkat Lunak>
-Sistem Informasi Penyewaan Kesenian Daerah merupakan aplikasi berbasis web yang menyediakan berbagai kesenian daerah, dimana user bisa menyewa kesenian daerah tersebut. Pengguna aplikasi dapat melakukan pendaftaran sebagai penyewa atau sebagai komunitas kesenian daerah. pengguna yang sudah terdaftar dapat menyewa kesesenian daerah. calon penyewa dapat melakukan pembayaran dengan rekening bersama.
+	Sistem Informasi Penyewaan Kesenian Daerah merupakan aplikasi berbasis web yang menyediakan berbagai kesenian daerah, dimana user bisa menyewa kesenian daerah tersebut. Pengguna aplikasi dapat melakukan pendaftaran sebagai penyewa atau sebagai komunitas kesenian daerah. pengguna yang sudah terdaftar dapat menyewa kesesenian daerah. calon penyewa dapat melakukan pembayaran dengan rekening bersama.
 
 <2.1.1 Kebutuhan Fungsional>
--	Sistem harus memeriksa ketersediaan atau kesanggupan komunitas daerah saat pementasan
--	System harus mengizinkan penyewa untuk registrasi pemesanan
--	System harus memberikan notifikasi kepada penyewa setelah komunitas mengkonfirmasi
--	System harus meminta feedback kepada penyewa untuk komunitas kesenian terkait
+	-	Sistem harus memeriksa ketersediaan atau kesanggupan komunitas daerah saat pementasan
+	-	System harus mengizinkan penyewa untuk registrasi pemesanan
+	-	System harus memberikan notifikasi kepada penyewa setelah komunitas mengkonfirmasi
+	-	System harus meminta feedback kepada penyewa untuk komunitas kesenian terkait
 
 
 <2.1.2 Kebutuhan Non Fungsional>
--	Sistem terintegrasi dengan e-mail
--	Interaksi user dan system tidak boleh lebih dari 
--	User dapat melihat riwayat pemesanan
+	-	Sistem terintegrasi dengan e-mail
+	-	Interaksi user dan system tidak boleh lebih dari 
+	-	User dapat melihat riwayat pemesanan
 
 
 <2.2 Fungsi - Fungsi Perangkat Lunak>
-- Menyediakan media bagi user untuk mencari penyewaan kesenian daerah
-- Membantu mempromosikan komunitas kesenian daerah untuk lebih dikenal masyarakat
-- Menyediakan sistem pembayaran penyewaan kesenian daerah
+	- Menyediakan media bagi user untuk mencari penyewaan kesenian daerah
+	- Membantu mempromosikan komunitas kesenian daerah untuk lebih dikenal masyarakat
+	- Menyediakan sistem pembayaran penyewaan kesenian daerah
 
 
 <2.2.1 Use Case Diagram>
@@ -179,3 +177,111 @@ Batasan Desain dan Implementasi yang dipakai dalam pengembangan perangkat lunak 
 - Pembuatan Web menggunakan wordpress
 - Text Editor yang dipakai adalah sublime text
 - Bahasa Pemrograman yang digunakan adalah PHP
+
+<3. Deskripsi Kebutuhan>
+<3.1. Kebutuhan Antarmuka Eksternal>
+	Perangkat Lunak Sistem Informasi Penyewaan Kesenian Daerah membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
+<3.1.1. Antarmuka Pemakai>
+	User interface yang digunakan untuk mengoperasikan Perangkat Lunak Super Monster
+Mall antara lain :
+	- Tampilan awal web
+	- Tampilan form penyewaan
+	- Tampilan sign in
+	- Tampilan pendaftaran
+	- Tampilan list komunitas kesenian
+Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut.
+	- Keyboard
+	- Mouse
+	- Monitor
+	
+<3.1.2. Antarmuka Perangkat Keras>
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+	- NIC FastEthernet atau Gigabit Ethernet
+	- Kabel LAN UTP RJ-45
+	- ASDL Modem
+	- Kabel telepon (aerial type)
+	
+<3.1.3. Antarmuka Perangkat Lunak>
+Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai berikut :
+	- API E-Banking
+	
+
+<3.1.4. Antarmuka Komunikasi>
+Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+	- Kabel LAN UTP RJ-45
+	- ASDL Modem
+	- Kabel telepon (aerial type)
+
+<3.2. Kebutuhan Fungsional>
+
+<3.2.1. Diagram Konteks>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD_0.png
+
+<3.2.2. DFD Level 1>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%201.png
+
+<3.2.3. Spesifikasi Proses (P-SPEC)>
+................
+
+<3.2.4. Data Store>
+................
+
+<3.3. Kebutuhan Data>
+<3.3.1. ER-Diagram>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/ERD.png
+
+<3.4. Kebutuhan Non Fungsional>
+Kebutuhan non fungsional yang terdapat pada perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
+................
+
+<3.5. Batasan Perancangan>
+Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
+	- Tampilan web dibuat dengan menggunakan wordpress
+	- Text editor yang digunakan adalah sublime text dan/atau notepad++
+	- Bahasa pemrograman yang digunakan adalah Java
+<3.6. Kerunutan (Traceability)>
+Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
+................
+<3.6.1. Kebutuhan Fungsional vs Proses>
+Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah adalah sebagai berikut.
+................
+
+<3.6.2. Data Store vs E-R>
+Mapping data store pada DFD dengan Entity –Relasi untuk perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah adalah sebagai berikut :
+................
+
+<3.7. Ringkasan Kebutuhan>
+Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua
+kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah :
+
+<3.7.1 Kebutuhan Fungsional>
+ID		Kebutuhan								Penjelasan
+SRS-F-OUT-001	Perangkat lunak mampu menampilkan pemilihan form login			Pengguna atau komunitas memilih login menurut statusnya masing-masing dan harus sudah terdaftar untuk dapat masuk ke halaman awal
+SRS-F-OUT-002	Perangkat lunak mampu menampilkan form pendaftaran			Pengguna yang belum terdaftar harus melakukan pendaftaran untuk mengakses ke halaman lanjut
+SRS-F-OUT-003	Perangkat lunak mampu menampilkan pesan pendaftaran untuk komunitas	Komunitas yang belum terdaftar harus mendaftarkan sendiri kepada admin yang berada di kantor
+SRS-F-IN-004	Perangkat lunak mampu mencocokan id dan password pengguna		Data yang dimasukkan harus sesuai dengan data yang sudah ada
+SRS-F-PR-005	Perangkat lunak mampu menyimpan data pengguna dan komunitas		Perangkat harus bisa menyimpan data untuk dikelola kembali ataupun disimpan
+SRS-F-OUT-006	Perangkat lunak mampu menampilkan halaman awal				Pegguna dapat melihat halaman awal setelah melakukan login
+SRS-F-OUT-007	Perangkat lunak mampu menampilkan gambar dari seluruh komunitas		Pada halaman awal pengguna dapat melihat list komunitas yang ada
+SRS-F-PR-008	Perangkat lunak mampu mencari sesuatu menggunakan search		Pengguna dapat mencari menggunakan search yang sudah ada
+SRS-F-OUT-009	Perangkat lunak mampu menampilkan form penyewaan			Pengguna akan ditampilkan form penyewaan setelah memilih komunitas yang dipilih
+SRS-F-PR-010	Perangkat lunak mampu menyimpan isi form penyewaan			Data yang dimasukkan pengguna harus dapat disimpan didalam storage
+SRS-F-OUT-011	Perangkat lunak mampu menyediakan form pembayaran			Pengguna dihapkan dapat membayar setelah melakukan pemesanan
+SRS-F-IN-012	Perangkat lunak mampu menghitung jumlah harga yang harus dibayar	Pengguna bisa mengetahui harga yang harus mereka bayar
+SRS-F-PR-013	Perangkat lunak mampu menyimpan record pembayaran			Data pembelian dapat tersimpan
+SRS-F-OUT-014	Perangkat lunak mampu mengupdate profile komunitas			Komunitas diharapkan dapat mengupdate profile mereka
+SRS-F-IN-015	Perangkat lunak mampu menjawab atau konfirmasi penyewaan		Komunitas diharapkan dapat mengkonfirmasi permintaan saat mereka memiliki order
+SRS-F-OUT-016	Perangkat lunak mampu memberikan laporan				Laporan dapat tersampaikan kepada Admin.  
+
+<3.7.2 Kebutuhan Non Fungsional>
+Tabel Kebutuhan Non Fungsional
+ID			Deskripsi
+SRS-NF-OUT-17		Perangkat lunak dapat beroperasi selama 7 hari tanpa gagal
+SRS-NF-OUT-018		Tampilan interface dapat dipahami dengan mudah dan memiliki estetika yang bagus
+SRS-NF-PR-019		Perangkat lunak dapat digunakan di platform Android
+SRS-NF-PR-020		Perangkat mampu melaksanakan perjalanan
+SRS-NF-IN-021		Perangkat lunak menolak input bila pendaftar memasukkan password atau nama kurang dari 8 karakter
+SRS-NF-PR-031		Semua bahasa dalam interface disediakan dalam bahasa Indonesia
