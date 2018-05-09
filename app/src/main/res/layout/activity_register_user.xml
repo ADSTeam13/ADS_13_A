@@ -10,13 +10,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register User"
+        android:text="Register "
         android:gravity="center_horizontal"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_marginTop="10dp" />
     <EditText
-        android:id="@+id/usernameRegUser"
+        android:id="@+id/daftarUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -25,7 +25,7 @@
         android:hint="Masukan Nama"
         />
     <EditText
-        android:id="@+id/emailRegUser"
+        android:id="@+id/daftarEmailUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -34,7 +34,7 @@
         android:hint="Masukan Email"
         />
     <EditText
-        android:id="@+id/passRegUser"
+        android:id="@+id/datftarPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -43,7 +43,7 @@
         android:hint="Masukan Password"
         />
     <EditText
-        android:id="@+id/phoneRegUser"
+        android:id="@+id/daftarPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -51,9 +51,27 @@
         android:inputType="phone"
         android:hint="Masukan no Telp"
         />
+    <EditText
+        android:id="@+id/namaKomunitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Masukan Nama Komunitas"
+        />
+    <Spinner
+        android:id="@+id/jenisPengguna"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:entries="@array/mode_pengguna"
+        android:hint="pilih jenis pengguna"
+        />
 
     <Button
-        android:id="@+id/daftarRegUser"
+        android:id="@+id/daftarUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onSuccesRegisterUser"

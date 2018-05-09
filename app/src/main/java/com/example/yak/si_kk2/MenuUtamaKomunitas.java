@@ -25,7 +25,7 @@ public class MenuUtamaKomunitas extends AppCompatActivity {
         startActivity(intent);
     }
     public void onSewaKomunitas(View view){
-        Intent intent = new Intent(this, FormPenyewaan.class);
+        Intent intent = new Intent(this, ListOrder.class);
         startActivity(intent);
     }
 }

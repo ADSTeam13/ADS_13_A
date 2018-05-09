@@ -1,53 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
-    android:layout_width="match_parent">
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Halaman Utama Komunitas"
-        android:textSize="30sp"
+        android:textSize="32dp"
         android:textStyle="bold"
+        android:layout_marginTop="10dp"
         android:textColor="@color/md_black_1000"
         android:gravity="center_horizontal"/>
-    <Button
-        android:id="@+id/profileKomunitas"
-        android:text="Profile"
-        android:onClick="onProfileKomunitas"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="30dp"
-    />
-    <Button
-        android:id="@+id/portofolioKomunitas"
-        android:text="Portofolio"
-        android:onClick="onPortofolioKomunitas"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="210dp"
-        />
-    <Button
-        android:id="@+id/logOutKomunitas"
-        android:text="Log Out"
-        android:onClick="onLogOutKomunitas"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="270dp"
-        android:layout_marginLeft="30dp"
-        />
-    <Button
-        android:id="@+id/orderKomunitas"
-        android:onClick="onSewaKomunitas"
-        android:text="Order"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="270dp"
-        android:layout_marginLeft="210dp"
-        />
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/profileKomunitas"
+            android:text="Profile"
+            android:onClick="onProfileKomunitas"
+            android:layout_width="150dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            />
+        <Button
+            android:id="@+id/portofolioKomunitas"
+            android:text="Portofolio"
+            android:onClick="onPortofolioKomunitas"
+            android:layout_width="150dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/logOutKomunitas"
+            android:text="Log Out"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:onClick="onLogOutKomunitas"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/orderKomunitas"
+            android:onClick="onSewaKomunitas"
+            android:text="Order"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

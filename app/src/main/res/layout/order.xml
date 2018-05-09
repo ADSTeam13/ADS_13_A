@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvNamaPemesan"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="24sp"
+            android:onClick="onOrder"
+            android:paddingLeft="10dp"
+            android:text="@string/namapemesan"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/tvDetilPesanan"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:text="@string/detilPesanan"
+            android:textColor="@color/md_blue_grey_700"/>
+    </LinearLayout>
+
+</LinearLayout>

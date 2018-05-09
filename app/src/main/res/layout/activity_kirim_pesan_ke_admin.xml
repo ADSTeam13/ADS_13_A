@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:layout_marginTop="32dp"
+    android:orientation="vertical"
+    tools:context="com.example.yak.si_kk2.KirimPesanKeAdmin">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kritik dan Saran"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/md_black_1000"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+    <EditText
+        android:hint="Masukan Judul Kritik Dan Saran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_gravity="top"
+        android:hint="Sampaikan Unek-unek anda"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+    <Button
+        android:id="@+id/kirimUnek2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirim"
+        android:textStyle="bold"
+        android:onClick="onKirimKritikAdmin"
+        android:layout_gravity="right"
+        android:textSize="16sp"/>
+</LinearLayout>

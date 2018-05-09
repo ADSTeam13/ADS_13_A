@@ -1,9 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/md_purple_400"
     android:layout_height="match_parent"
-    tools:context="com.example.yak.si_kk2.FormPenyewaan">
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.yak.si_kk2.RegisterKomunitas">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Penyewaan"
+        android:gravity="center_horizontal"
+        android:textSize="32sp"
+        android:textColor="@color/md_black_1000"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"/>
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/tglSewa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Masukan Tanggal"
+            android:inputType="date"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/alamatSewa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Masukan Alamat Pagelaran"
+            android:inputType="textPostalAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/phoneSewa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Masukan no Telp"
+            android:inputType="phone"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+        <EditText
+            android:id="@+id/detilJam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Masukan Detil Jam"
+            android:inputType="phone"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+
+        <Button
+            android:id="@+id/Sewa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSuccesRegisterKom"
+            android:text="SEWA "
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

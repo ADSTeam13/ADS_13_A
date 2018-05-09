@@ -1,229 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="match_parent"
+<LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:weightSum="1"
+    android:orientation="vertical"
     android:background="@color/md_indigo_50"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/lay1"
         android:layout_marginTop="50dp"
-        android:orientation="vertical">
-        <LinearLayout
-            android:id="@+id/lay1"
-            android:paddingTop="10dp"
-            android:paddingLeft="10dp"
-            android:layout_width="380dp"
-            android:layout_height="66dp"
-            android:orientation="horizontal"
-            android:weightSum="1">
-
-            <EditText
-                android:id="@+id/search_bar"
-                android:inputType="text"
-                android:layout_width="fill_parent"
-                android:layout_height="52dp"
-                android:hint="Cari"
-                android:layout_weight="1"
-                android:background="@color/md_grey_50" />
-            <ImageButton
-                android:id="@+id/search_button"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@android:drawable/ic_search_category_default"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/lay2"
-            android:paddingLeft="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="0.01"
-            android:background="@color/md_grey_50"
-            android:orientation="horizontal"
-            android:weightSum="1">
-
-            <ImageView
-                android:id="@+id/lay2_imageView1"
-                android:layout_width="120dp"
-                android:layout_height="130dp"
-                android:layout_gravity="center"
-                android:padding="5dp"
-                android:onClick="onProfileKomunitas"
-                android:src="@android:drawable/ic_menu_compass" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/lay2_judul"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:text="@string/judul"
-                    android:textColor="@color/md_black_1000"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/lay2_description1"
-                    android:layout_width="264dp"
-                    android:layout_height="50dp"
-                    android:text="@string/deskripsi" />
-
-                <RatingBar
-                    android:id="@+id/ratingBtn1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:paddingLeft="-100dp"
-                    android:rating="4"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    />
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/lay3"
-            android:paddingLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:background="@color/md_grey_50"
-            android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_weight="0.01">
-
-            <ImageView
-                android:id="@+id/lay3_imageView"
-                android:padding="5dp"
-                android:layout_gravity="center"
-                android:layout_width="120dp"
-                android:layout_height="130dp"
-                android:onClick="onProfileKomunitas"
-                android:src="@android:drawable/ic_menu_compass"/>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:id="@+id/lay3_judul"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:textSize="20sp"
-                    android:textColor="@color/md_black_1000"
-                    android:textStyle="bold"
-                    android:text="@string/judul"/>
-                <TextView
-                    android:id="@+id/lay3_description1"
-                    android:layout_width="264dp"
-                    android:layout_height="50dp"
-                    android:text="@string/deskripsi"/>
-                <RatingBar
-                    android:id="@+id/lay_3_ratingBtn1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:paddingLeft="-100dp"
-                    android:rating="3"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/lay4"
-            android:paddingLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:background="@color/md_grey_50"
-            android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_weight="0.01">
-
-            <ImageView
-                android:id="@+id/lay4_imageView1"
-                android:padding="5dp"
-                android:layout_gravity="center"
-                android:layout_width="120dp"
-                android:layout_height="130dp"
-                android:onClick="onProfileKomunitas"
-                android:src="@android:drawable/ic_menu_compass"/>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:id="@+id/lay4_judul"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:textSize="20sp"
-                    android:textColor="@color/md_black_1000"
-                    android:textStyle="bold"
-                    android:text="@string/judul"/>
-                <TextView
-                    android:id="@+id/lay4_description1"
-                    android:layout_width="264dp"
-                    android:layout_height="50dp"
-                    android:text="@string/deskripsi"/>
-                <RatingBar
-                    android:id="@+id/lay4_ratingBtn1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:paddingLeft="-100dp"
-                    android:rating="4"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/lay5"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:background="@color/md_grey_50"
-            android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_weight="0.01">
-
-            <ImageView
-                android:id="@+id/lay5_imageView1"
-                android:padding="5dp"
-                android:layout_gravity="center"
-                android:layout_width="120dp"
-                android:layout_height="130dp"
-                android:onClick="onProfileKomunitas"
-                android:src="@android:drawable/ic_menu_compass"/>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:id="@+id/lay5_judul"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
-                    android:textSize="20sp"
-                    android:textColor="@color/md_black_1000"
-                    android:textStyle="bold"
-                    android:text="@string/judul"/>
-                <TextView
-                    android:id="@+id/lay5_description1"
-                    android:layout_width="264dp"
-                    android:layout_height="50dp"
-                    android:text="@string/deskripsi"/>
-                <RatingBar
-                    android:id="@+id/lay5_ratingBtn1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:paddingLeft="-100dp"
-                    android:rating="4"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5" />
-            </LinearLayout>
-        </LinearLayout>
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="380dp"
+        android:layout_height="66dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <EditText
+            android:id="@+id/search_bar"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:hint="Cari"
+            android:layout_weight="1"
+            android:background="@color/md_grey_50" />
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@android:drawable/ic_search_category_default"/>
     </LinearLayout>
+    <ListView
+        android:id="@+id/lvF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:listitem="@layout/feed">
+    </ListView>
 
-</ScrollView>
+</LinearLayout>

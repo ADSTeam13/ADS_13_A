@@ -42,12 +42,14 @@
         android:inputType="numberPassword"
         android:hint="Masukan Password"
         />
-    <EditText
+
+    <Spinner
         android:id="@+id/pilihKomunitas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_marginTop="10dp"
         android:ems="10"
+        android:entries="@array/list_kom"
         android:inputType="textPersonName"
         android:hint="Masukan Nama Komunitas"
         />
