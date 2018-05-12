@@ -213,7 +213,6 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara 
 	- Kabel telepon (aerial type)
 
 <3.2. Kebutuhan Fungsional>
-
 <3.2.1. Diagram Konteks>
 Terlampir pada link berikut :
 https://github.com/ADSTeam13/ADS_13_A/blob/master/Konteks_Diagram%20(DFD%200).jpg
