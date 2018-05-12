@@ -238,6 +238,9 @@ https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_Proses_pembayara
 Terlampir pada link berikut :
 https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_Proses_portofolio_.jpg
 
+<3.2.2.5 DFD Level 2 <Proses Login>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_login_.jpg
 
 
 <3.2.3. Spesifikasi Proses (P-SPEC)>
