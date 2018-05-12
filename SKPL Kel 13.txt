@@ -216,11 +216,24 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara 
 
 <3.2.1. Diagram Konteks>
 Terlampir pada link berikut :
-https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD_0.png
+https://github.com/ADSTeam13/ADS_13_A/blob/master/Konteks_Diagram%20(DFD%200).jpg
 
 <3.2.2. DFD Level 1>
 Terlampir pada link berikut :
-https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%201.png
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl%201.jpg
+
+<3.2.2.1 DFD Level 2 <Proses Edit Komunitas>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_ProsesEditKomunitas_.jpg
+
+<3.2.2.2 DFD Level 2 <Proses List Komunitas>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_ProsesListKomunitas_.jpg
+
+<3.2.2.3 DFD Level 2 <Proses Pembayaran>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_Proses_pembayaran_.jpg
+
 
 <3.2.3. Spesifikasi Proses (P-SPEC)>
 Kode Buble	Deskripsi
