@@ -242,6 +242,9 @@ https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_Proses_portofoli
 Terlampir pada link berikut :
 https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_login_.jpg
 
+<3.2.2.6 DFD Level 2 <Proses Pendaftaran>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_pendaftaran_.jpg
 
 <3.2.3. Spesifikasi Proses (P-SPEC)>
 Kode Buble	Deskripsi
