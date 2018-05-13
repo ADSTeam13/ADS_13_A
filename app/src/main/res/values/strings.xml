@@ -53,7 +53,7 @@
     <string name="hint_name">Fullname</string>
     <string name="btn_login">LOGIN</string>
     <string name="btn_link_to_register">Belum Memiliki Akun? Daftar Sekarang!</string>
-    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="btn_link_to_login">Sudang Memiliki Akun. Login!</string>
     <string name="title_activity_reset_password">ResetPasswordActivity</string>
     <string name="btn_forgot_password">Lupa Password?</string>
     <string name="btn_reset_password">Reset Password</string>
@@ -67,4 +67,56 @@
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
     <string name="namapemesan">Sugiarto</string>
     <string name="detilPesanan">Memesan : Kesenenian Jaran Kepang, pelaksanaan: 20/06/2018, Jam: 10 pagi</string>
+
+
+    //judul kesenian
+    <string name="ketopraksiswobudoyo">Ketoprak Siswo Budoyo</string>
+    <string name="dalangwayangkulit">Dalang Wayang Kulit</string>
+    <string name="reogponorogo">Reog Ponorogo</string>
+    <string name="taritortor">Tari Tor Tor</string>
+    <string name="tarikecak">Tari Kecak</string>
+
+    //deskripsi kesenian
+    <string name="des_ketopraksiswobudoyo">Kethoprak dengan pimpinan Anom Sudarsono ada sejak tahun 1989. Kethoprak “ Siswa Budaya “
+        mengkolaborasikan seni modern di dalamnya , misalnya untuk musiknya selain gamelan juga ada organ , drum dan yang lainnya.
+        Cerita yang ditampilkan juga mampu memikat penonton dari berbagai kalangan baik tua maupun muda , misalnya dengan menyajikan
+        adegan romantic yang menggemaskan, adegan perang dengan unsur akrobatik yang mencengangkan dan tidak ketinggalan lawakan-lawakan
+        yang lucu dan menggelikan</string>
+    <string name="des_dalangwayangkulit">Ki Manteb Soedharsono (lahir di Palur, Mojolaban, Sukoharjo, 31 Agustus 1948; umur 69 tahun)
+        adalah seorang dalang wayang kulit ternama yang dari Jawa Tengah. Karena keterampilannya dalam memainkan wayang, ia pun dijuluki
+        para penggemarnya sebagai Dalang Setan. Ia juga dianggap sebagai pelopor perpaduan seni pedalangan dengan peralatan musik
+        modern.</string>
+    <string name="des_reogponorogo">Reog adalah salah satu kesenian budaya yang berasal dari Jawa Timur bagian barat-laut dan Ponorogo
+        dianggap sebagai kota asal Reog yang sebenarnya. Gerbang kota Ponorogo dihiasi oleh sosok warok dan gemblak, dua sosok yang
+        ikut tampil pada saat reog dipertunjukkan. Reog adalahsalah satu budaya daerah di Indonesia yang masih sangat kental dengan
+        hal-hal yang berbau mistik dan ilmu kebatinan yang kuat.</string>
+    <string name="des_taritortor">Tari Tor Tor merupakan salah satu jenis tari yang berasal dari suku Batak di Pulau Sumatera.
+        Sejak sekitar abad ke-13, Tari Tor Tor sudah menjadi budaya suku Batak. Perkiraan tersebut dikemukakan oleh mantan anggota
+        anjungan Sumatera Utara 1973-2010 dan pakar Tari Tor Tor. Dulunya, tradisi Tor Tor hanya ada dalam kehidupan masyarakat suku
+        Batak yang berada di kawasan Samosir, kawasan Toba dan sebagian kawasan Humbang. Namun, setelah masukknya Kristen di kawasan
+        Silindung, budaya ini dikenal dengan budaya menyanyi dan tarian modern.Di kawasan Pahae dikenal dengan tarian gembira dan lagu
+        berpantun yang disebut tumba atau juga biasa disebut Pahae do mula ni tumba.</string>
+    <string name="des_tarikecak">Kecak adalah pertunjukan tarian seni khas Bali yang lebih utama menceritakan mengenai Ramayana
+        dan dimainkan terutama oleh laki-laki. Tarian ini dipertunjukkan oleh banyak (puluhan atau lebih) penari laki-laki yang
+        duduk berbaris melingkar dan dengan irama tertentu menyerukan "cak" dan mengangkat kedua lengan, menggambarkan kisah Ramayana
+        saat barisan kera membantu Rama melawan Rahwana. Namun, Kecak berasal dari ritual sanghyang, yaitu tradisi tarian yang penarinya
+        akan berada pada kondisi tidak sadar, melakukan komunikasi dengan Tuhan atau roh para leluhur dan kemudian menyampaikan
+        harapan-harapannya kepada masyarakat. Para penari yang duduk melingkar tersebut mengenakan kain kotak-kotak seperti papan
+        catur melingkari pinggang mereka. Selain para penari itu, ada pula para penari lain yang memerankan tokoh-tokoh Ramayana seperti
+        Rama, Shinta, Rahwana, Hanoman, dan Sugriwa</string>
+
+    //Biaya
+    <string name="biaya_ketopraksiswobudoyo">15jt</string>
+    <string name="biaya_dalangwayangkulit">13jt</string>
+    <string name="biaya_reogponorogo">20jt</string>
+    <string name="biaya_taritortor">10jt</string>
+    <string name="biaya_tarikecak">10jt</string>
+
+    //Rating
+
+    <string name="rate_ketopraksiswobudoyo">5</string>
+    <string name="rate_dalangwayangkulit">3</string>
+    <string name="rate_reogponorogo">4</string>
+    <string name="rate_taritortor">3</string>
+    <string name="rate_tarikecak">4</string>
 </resources>

@@ -76,20 +76,22 @@ public class MenuUtamaUser extends AppCompatActivity
 
             ArrayList<PostFeedKomunitas> postFeedKomunitas = new ArrayList<PostFeedKomunitas>();
             for(int i=0;i<100;i++){
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.ic_menu_camera, "Jaran Kepang Malangan", "description", 1234, 5));
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.ic_menu_gallery, "judul", "description", 1234, 1));
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.ic_menu_manage, "judul", "description", 1234, 3));
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.ic_menu_send, "judul", "description", 1234, 2));
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.ic_menu_share, "judul", "description", 1234, 4));
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.ic_menu_slideshow, "judul", "description", 1234, 4));
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.common_google_signin_btn_icon_dark, "judul", "description", 1234, 5));
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.common_google_signin_btn_icon_dark_normal, "judul", "description", 1234, 5));
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.common_full_open_on_phone, "judul", "description", 1234, 4));
-                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.person_outline, "judul", "description", 1234, 3));
+                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.ketopraksiswobudoyo,
+                        getString(R.string.ketopraksiswobudoyo) , getString(R.string.des_ketopraksiswobudoyo),
+                        15000000, 5));
+                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.dalangwayangulit,
+                        getString(R.string.dalangwayangkulit), getString(R.string.des_dalangwayangkulit), 20000000, 4));
+                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.reogponorogo,
+                        getString(R.string.reogponorogo), getString(R.string.des_reogponorogo), 15000000, 4));
+                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.taritortor,
+                        getString(R.string.taritortor), getString(R.string.des_taritortor), 1000000, 4));
+                postFeedKomunitas.add(new PostFeedKomunitas(1, R.drawable.tariankecak,
+                        getString(R.string.tarikecak), getString(R.string.des_tarikecak), 10000000, 4));
             }
             PostFeedKomunitasAdapter postFeed = new PostFeedKomunitasAdapter(this, postFeedKomunitas);
             ListView listView = (ListView) findViewById(R.id.lvF);
             listView.setAdapter(postFeed);
+
         } catch (Exception e) {
             Log.d("MenuUtamaUser", e.toString());
         }
