@@ -213,20 +213,68 @@ Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara 
 	- Kabel telepon (aerial type)
 
 <3.2. Kebutuhan Fungsional>
-
 <3.2.1. Diagram Konteks>
 Terlampir pada link berikut :
-https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD_0.png
+https://github.com/ADSTeam13/ADS_13_A/blob/master/Konteks_Diagram%20(DFD%200).jpg
 
 <3.2.2. DFD Level 1>
 Terlampir pada link berikut :
-https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%201.png
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl%201.jpg
+
+<3.2.2.1 DFD Level 2 <Proses Edit Komunitas>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_ProsesEditKomunitas_.jpg
+
+<3.2.2.2 DFD Level 2 <Proses List Komunitas>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_ProsesListKomunitas_.jpg
+
+<3.2.2.3 DFD Level 2 <Proses Pembayaran>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_Proses_pembayaran_.jpg
+
+<3.2.2.4 DFD Level 2 <Proses Fortopolio>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_Proses_portofolio_.jpg
+
+<3.2.2.5 DFD Level 2 <Proses Login>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_login_.jpg
+
+<3.2.2.6 DFD Level 2 <Proses Pendaftaran>>
+Terlampir pada link berikut :
+https://github.com/ADSTeam13/ADS_13_A/blob/master/DFD%20lvl2%20_pendaftaran_.jpg
 
 <3.2.3. Spesifikasi Proses (P-SPEC)>
-................
+Kode Buble	Deskripsi
+DFD-0		Proses ini merupakan gambaran jalannya sistem data keseluruhan.
+
+DFD-1-1		Terminator ini mengeluarkan output sesuai input dari pengguna dan komunitas.
+DFD-1-2		Proses ini akan terjadi ketika pengguna atau komunitas memilih menu login untuk masuk kedalam akun mereka. Dengan melakukan pemeriksaan pada data Tabel_id login login dapat terjadi jika inoutan username dan password sama.
+DFD-1-3		Proses ini terjadi jika pengguna menekan menu registrasi.
+DFD-1-4		Terminal ini bekerja jika pengguna menekan menu list komunitas. Terminal terhubung dengan Tabel_komunitas untuk menampilkan list komunitas.
+DFD-1-5		Proses ini terjadi ketika komunitas memilih menu edit komunitas untuk melakukan perubahan pada informasi komunitas mereka.
+DFD-1-6		Proses ini terjadi saat pengguna memilih menu portofolio pada interface komunitas tertentu. Data akan diambil dari Tabel_komunitas.
+DFD-1-7		Proses ini terjadi saat pengguna menekan tombol sewa pada interface komunitas tertentu
+DFD-1-8		Proses ini terjadi setelah memilih menu pembayaran setelah mengisi form penyewaan.
+
+DFD-2-2.1	Proses ini menampilkan form login yang terintegrasi dengan Tabel_id untuk mengkonfirmasi username dan password dari pengguna dan komunitas.
+DFD-2-3.1	Proses ini menampilkan form pendaftaran yang selanjutnya data pendaftaran akan dimasukkan kedalam Tabel_id.
+DFD-2-4.1	Proses akan memanggil data pada Tabel_komunitas untuk menampilkan list komunitas yang ada pada database.
+DFD-2-5.1	Terminal ini bekerja saat menu edit profile dipilih. Akan menampilkan informasi komunitas yang dapat dibuah oleh komunitas tersebut. Setelah dilakukan pengubahan data akan diupdate kedalam Tabel_komunitas.
+DFD-2-5.2	Terminal ini bekerja saat menu edit profile dipilih. Akan menampilkan portofolio komunitas yang dapat dibuah oleh komunitas tersebut. Setelah dilakukan pengubahan data akan diupdate kedalam Tabel_komunitas.
+DFD-2-5.3	Terminal ini berfungsi untuk menampilkan update dari informasi dan proposal yang telah diedit.
+DFD-2-6.1	Terminal terhubung dengan Tabel_komunitas untuk menampilkan portofolio dari komunitas tertentu.
+DFD-2-7.1	Terminal ini terhubung dengan 3 database Tabel_id, Tabel_komunitas, dan Tabel_pemesanan. Terminal ini menampilkan form pemesana dan memasukkan data kedalam Tabel_pemesanan.
+DFD-2-8.1	Terminal ini terhubung dengan Tabel_id dan Tabel_pembayaran untuk melakukan record pembayaran.
+DFD-2-8.2	Proses ini terjadi saat pembayaran telah dikonfirmasi oleh admin sehingga data konfirmasi masuk kedalam Tabel_pembayaran dan status pembayaran berubah.
 
 <3.2.4. Data Store>
-................
+Data Store		Deskripsi
+Tabel_id		Tabel ini digunakan untuk data login, registrasi, pemesanan dan pembayaran. Berisikan _id, nama, password, no hp, email, dan status.
+Tabel_komunitas		Tabel ini berisikan informasi seluruh komunitas. Berisikan _id, kode_komunitas, nama_komunitas, deskripsi_komunitas, dan portofolio.
+Tabel_pemesanan		Tabel ini berisikan informasi pemesanan yang telah terjadi. Berisikan _id, kode_pemesanan, kode_komunitas, waktu, dan lokasi.
+Tabel_pembayaran	Tabel ini berisikan record pembayaran yang telah terjadi. Berisikan _id, jumlah, status, dan waktu.
 
 <3.3. Kebutuhan Data>
 <3.3.1. ER-Diagram>
@@ -235,7 +283,13 @@ https://github.com/ADSTeam13/ADS_13_A/blob/master/ERD.png
 
 <3.4. Kebutuhan Non Fungsional>
 Kebutuhan non fungsional yang terdapat pada perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
-................
+ID			Deskripsi
+SRS-NF-OUT-17		Perangkat lunak dapat beroperasi selama 7 hari tanpa gagal
+SRS-NF-OUT-018		Tampilan interface dapat dipahami dengan mudah dan memiliki estetika yang bagus
+SRS-NF-PR-019		Perangkat lunak dapat digunakan di platform Android
+SRS-NF-PR-020		Perangkat mampu melaksanakan perjalanan
+SRS-NF-IN-021		Perangkat lunak menolak input bila pendaftar memasukkan password atau nama kurang dari 8 karakter
+SRS-NF-PR-031		Semua bahasa dalam interface disediakan dalam bahasa Indonesia
 
 <3.5. Batasan Perancangan>
 Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah antara lain :
@@ -243,15 +297,19 @@ Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Sistem Infor
 	- Text editor yang digunakan adalah sublime text dan/atau notepad++
 	- Bahasa pemrograman yang digunakan adalah Java
 <3.6. Kerunutan (Traceability)>
-Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
-................
+Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah.
+
 <3.6.1. Kebutuhan Fungsional vs Proses>
 Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah adalah sebagai berikut.
-................
 
 <3.6.2. Data Store vs E-R>
 Mapping data store pada DFD dengan Entity –Relasi untuk perangkat lunak Sistem Informasi Penyewaan Kesenian Daerah adalah sebagai berikut :
-................
+
+Data Store		Entity									Deskripsi
+Tabel_id		id, password, status, email, nomor hp					Tabel ini digunakan untuk data login, registrasi, pemesanan dan pembayaran. Berisikan _id, nama, password, no hp, email, dan status.
+Tabel_komunitas		kode komunitas, nama komunitas, deskripsi komunitas, dan portofolio	Tabel ini berisikan informasi seluruh komunitas. Berisikan _id, kode_komunitas, nama_komunitas, deskripsi_komunitas, dan portofolio.
+Tabel_pemesanan		kode pemesanan, waktu penyewaan, dan lokasi penyewaan									Tabel ini berisikan informasi pemesanan yang telah terjadi. Berisikan _id, kode_pemesanan, kode_komunitas, waktu, dan lokasi.
+Tabel_pembayaran	jumlah total harga, status pembayaran, dan waktu pembayaran									Tabel ini berisikan record pembayaran yang telah terjadi. Berisikan _id, jumlah, status, dan waktu.
 
 <3.7. Ringkasan Kebutuhan>
 Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua
